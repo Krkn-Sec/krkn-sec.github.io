@@ -12,6 +12,8 @@ Password cracking is a good skill to have in the cybersecurity world. Everyone u
 
 Let me first say that you should have some powerful hardware. You can’t really crack passwords on a netbook. Some people have dedicated password cracking rigs that are similar to crypto mining rigs with 8 powerful GPUs. I’m not super deep into password cracking or coin mining to justify such a rig but my current GPU gets the job done well enough. Here’s my current PC specs:
 
+|   **Part**  |   **Model**  |
+|-------------|--------------|
 | **Mobo**    | Asus Z270-A  |
 |             |              |
 | **Processor** | Intel i7-7700k |
