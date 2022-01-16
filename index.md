@@ -3,6 +3,6 @@
 Currently moving all of my blog posts to here for a more centralized location.
 
 ### Navigation
-- [Blog](url)
+- [Blog](Blog/posts.md)
 - [Tools](url)
 - [Guides](url)
