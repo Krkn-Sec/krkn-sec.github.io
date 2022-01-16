@@ -15,11 +15,8 @@ Let me first say that you should have some powerful hardware. You can’t really
 |   **Part**  |   **Model**  |
 |-------------|--------------|
 | **Mobo**    | Asus Z270-A  |
-|             |              |
 | **Processor** | Intel i7-7700k |
-|             |                 |
 | **RAM**     | 32GB G.Skill Royal TridentZ 3200Mhz |
-|             |                 |
 | **GPU**     | AMD Radeon RX 5700 XT 50th Anniversary Edition | <br><br>
 
 
@@ -73,35 +70,22 @@ This mask is matching the password stats I mentioned above. You could use ?l ins
 You can also use a tool called **PolicyGen** to generate masks based off of password policies/guidelines for the application you’re trying to crack.
 
 Here’s some top masks for passwords found in Western countries: <br><br>
-
+| **Mask Syntax** | **Mask Translation** |
+|-----------------|----------------------|
 | ?l?l?l?l?l?l |	6-Lowercase |
-|---|---|
 | ?l?l?l?l?l?l?l |	7-Lowercase |
-|---|---|
 | ?l?l?l?l?l?l?l?l |	8-Lowercase |
-|---|---|
 | ?d?d?d?d?d?d |	6-Digits |
-|---|---|
 | ?l?l?l?l?l?l?l?l?l?l?l?l |	12-Lowercase |
-|---|---|
 | ?l?l?l?l?l?l?l?l?l |	9-Lowercase |
-|---|---|
 | ?l?l?l?l?l?l?l?l?l?l |	10-Lowercase |
-|---|---|
 | ?l?l?l?l?l |	5-Lowercase |
-|---|---|
 | ?l?l?l?l?l?l?d?d?l?l?l?l |	6-Lowercase + 2-Digits + 4-Lowercase |
-|---|---|
 | ?d?d?d?d?d?d?d?d?l?l?l?l |	8-Digits + 4-Lowercase |
-|---|---|
 | ?l?l?l?l?l?d?d |	5-Lowercase + 2-Digits |
-|---|---|
 | ?l?l?l?l?l?l?d?d |	6-Lowercase + 2-Digits |
-|---|---|
 | ?d?d?d?d?d?d?d?d |	8-Digits |
-|---|---|
 | ?l?l?l?l?l?l?l?l?d?d |	8-Lowercase + 2-Digits |
-|---|---|
 
 
 *Taken from Hash Crack*
