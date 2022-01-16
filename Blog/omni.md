@@ -3,7 +3,7 @@
 This was a pretty interesting box and had a new OS that I’ve never messed with.
 
 As always we start with an Nmap scan and adding the box to our hosts file.
-![portscan](Pictures/omniPort.jpg)
+![portscan](Pictures/omniScan.png)
 
 So we see that it looks like a Windows server but we never get a proper OS fingerprint for it. After some Googling, it turns out to be a Windows IoT device which is why you see the upnp service. ARCserve also might give you a hint as it looks to be an IoT related storage solution.
 
@@ -45,17 +45,17 @@ At that point, you’ll get that lovely Windows command prompt.
 
 From here you can look around all you want. However, an important file to note is located in C:\Program Files\WindowsPowerShell\Modules\PackageManagement. This file is hidden so use dir /ah to see it. You’ll see an r.bat file and in here you’ll find the passwords for user administrator and user app.
 
-![shell](Pictures/omniShell.jpg)
+![shell](Pictures/omniShell.png)
 
 Remember that login prompt from port 8080? Yeah you can use those creds there. It’ll take you to this.
 
-![login](Pictures/omniLogin.jpg)
+![login](Pictures/omniLogin.png)
 
 From here, you’ll see that under Processes menu, you have the ability to execute commands. You can use that same nc64.exe we dropped earlier to get higher privileges under these user contexts.
 
 But unfortunately, we can’t get user or root because the flags are in some strange XML format.
 
-![xml](Pictures/omniXML.jpg)
+![xml](Pictures/omniXML.png)
 
 After some more Googling, we can decrypt these using Powershell.
 
@@ -70,4 +70,4 @@ $credroot.GetNetworkCredential().Password
 
 This will decrypt the password for us and give us the flags we need.
 
-![finalFlag](Pictures/omniFlag.jpg)
+![finalFlag](Pictures/omniFlag.png)
