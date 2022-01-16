@@ -7,7 +7,6 @@
 Password cracking is a good skill to have in the cybersecurity world. Everyone understands why the bad guys would want these skills but why should the good guys know this? Well pentesters act like the bad guys to discover vulnerabilities of a company and provide detailed reports to improve that company’s security. Knowing how to crack passwords helps to ensure companies are properly storing passwords in a secure manner. Digital forensic investigators will also need to know this in order to gain access to encrypted files, hard drives, etc. Finally, it can be useful for sysadmins or developers to know this to ensure the security of the password encryptions they have in place.
 
 ---
-<br><br><br>
 
 ### Tools Needed <br><br>
 
@@ -26,7 +25,6 @@ Next you’ll need a password cracking tool of your choice. I like **Hashcat** b
 Finally, you’ll need a wordlist. We’ll get more in-depth with this later but brute-forcing passwords should only be used as a last resort. Dictionary attacks and hybrid attacks are the go-to. Rainbow Tables are an option as well but they are large and takes a lot of resources. For most applications, dictionary attacks will work well. The secret to quick password cracking is taking basic/targeted wordlists and mangling them in certain ways. A great foundational wordlist is the infamous **rockyou.txt** wordlist. RockYou is a list of most used passwords. Mangled correctly, you can get a decent amount from it. [Hashes.org](hashes.org) also has some wordlists available that work well.
 
 ---
-<br><br><br>
 
 ### Useful Password Statistics <br><br>
 
@@ -49,7 +47,6 @@ By knowing password statistics, you can develop your wordlists, mangling rules, 
 - 20% are complex and unique
 
 ---
-<br><br><br>
 
 ### Cracking Methods <br><br>
 
@@ -94,7 +91,6 @@ Here’s some top masks for passwords found in Western countries: <br><br>
 *Taken from Hash Crack*
 
 ---
-<br><br><br>
 
 ### Rainbow Tables
 
@@ -107,7 +103,6 @@ To simplify vBulletin -> (MD5(MD5(password)salt))
 It’s good to know about rainbow tables but I honestly can’t remember a time where I’ve used one. Wordlists and brute-forcing have worked just fine for me.
 
 ---
-<br><br><br>
 
 ### Dictionary Attacks
 
@@ -156,7 +151,6 @@ password    |   	u r       |   DROWSSAP
 *Taken from Hash Crack*
 
 ---
-<br><br><br>
 
 ### Hybrid Attacks
 
@@ -171,7 +165,7 @@ Use the following to have 4 characters appended to the start of each word in the
 hashcat -a 7 -m <hash type> <hash list> ?a?a?a?a <wordlist>
 ```
 
----<br><br><br>
+---
 
 ### Putting It All Together
 
@@ -206,7 +200,6 @@ After doing the same as above but starting with the digits, I was able to crack 
 ![passcrack6](Pictures/passcrack6.png) <br><br>
 
 ---
-<br><br><br>
 
 ### Conclusion
 
