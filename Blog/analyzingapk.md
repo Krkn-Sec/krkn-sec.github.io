@@ -60,7 +60,7 @@ Used AVD to open up an emulator and performed an adb push and installed the appl
 
 Upon installing and running the application, I saw this in Burp.
 
-![androidPost](Pictures/androidPost.png)<br><br>
+![androidPhoneInfo](Pictures/androidPhoneInfo.png)<br><br>
 
 
 So it looks like the first transfer is heading to the “sychonizeUser” aka “Synchronize User” address and sending the phone number, IMEI number, and Model information of the infected phone.
