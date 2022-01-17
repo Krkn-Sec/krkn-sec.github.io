@@ -143,7 +143,7 @@ I found the d3ad0ne ruleset supplied with Hashcat to work incredibly well but it
 **Word**    |   **Rule**    |   **Output**
 ------------|---------------|--------------
 password    |   	$1        |   password1
-password    |   ^|^1        |   1!password
+password    |   ^^1         |   1!password
 password    |   so0 sa@     |   p@ssw0rd
 password    |  c so0 sa@ $1 |   P@ssw0rd1
 password    |   	u r       |   DROWSSAP
