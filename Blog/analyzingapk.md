@@ -1,6 +1,7 @@
 ## Analyzing a Malicious APK
 
 NAME: VPX.APK
+
 MD5: 2914ABD93AB252A7DACD23AA6958A7F6
 
 ---
