@@ -4,5 +4,5 @@ Currently moving all of my blog posts to here for a more centralized location.
 
 ### Navigation
 - [Blog](Blog/posts.md)
-- [Tools](url)
+- [Tools](https://github.com/Krkn-Sec/)
 - [Guides](Guides/guides.md)
