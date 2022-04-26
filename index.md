@@ -6,6 +6,8 @@ My name is Paul and I'm one of those cybersecurity nerds that you hear about. I 
 ### Blog
 - [Blog](Blog/posts.md)
 
+---
+
 ### Malware Analysis
 - [Reports](https://github.com/Krkn-Sec/Malware-Analysis-Reports)
 - [YARA Rules](https://github.com/Krkn-Sec/YaraRules)
@@ -13,13 +15,19 @@ My name is Paul and I'm one of those cybersecurity nerds that you hear about. I 
 - [IOCs](https://github.com/Krkn-Sec/IOCs)
 - [Fuzzy Hashes](https://github.com/Krkn-Sec/Fuzzy-Hashes)
 
+---
+
 ### Digital Forensics
 - [Krkn Forensics Framework](https://github.com/Krkn-Sec/Krkn-Forensics-Framework)
 - [ExtraHop/VMware Ransomware Quarantine Script](https://github.com/Krkn-Sec/Forensic-Automation/blob/master/ExtraHop_Quarantine_Script.ps1)
 
+---
+
 ### Exploit Development
 - [Exploits](https://github.com/Krkn-Sec/Off-Sec/tree/master/Exploits)
 - [Shellcode](https://github.com/Krkn-Sec/Shellcode)
+
+---
 
 ### Help
 - [Guides](Guides/guides.md)
