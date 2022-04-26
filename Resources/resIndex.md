@@ -3,7 +3,7 @@
 ---
 
 ## Malware Analysis/Reverse Engineering
-### CrackMe's
+### CrackMes
 - [Crackmes.one](https://crackmes.one/)
 - [Bytecode Club](https://wiki.bytecode.club/CrackMes)
 - [Crackmes.de](http://crackmes.cf/archive/)
@@ -24,7 +24,7 @@
 ---
 
 ### Courses
-- Just go to [DFIR Diva's Website](https://training.dfirdiva.com) for a list of affordable training and courses. It's probably the most extensive list that I've seen.
+Just go to [DFIR Diva's Website](https://training.dfirdiva.com) for a list of affordable training and courses. It's probably the most extensive list that I've seen.
 
 ---
 
