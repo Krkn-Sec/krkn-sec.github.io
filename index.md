@@ -8,12 +8,13 @@ My name is Paul and I'm one of those cybersecurity nerds that you hear about. I 
 
 ### Malware Analysis
 - [Reports](https://github.com/Krkn-Sec/Malware-Analysis-Reports)
+- [YARA Rules](https://github.com/Krkn-Sec/YaraRules)
 
 ### Digital Forensics
 
 
 ### Exploit Development
-
+- [Exploits](https://github.com/Krkn-Sec/Off-Sec/tree/master/Exploits)
 
 ### Help
 - [Guides](Guides/guides.md)
