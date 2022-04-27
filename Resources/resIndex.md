@@ -29,6 +29,7 @@ Just go to [DFIR Diva's Website](https://training.dfirdiva.com) for a list of af
 ---
 
 ### Blogs/Papers
+- [Mandiant](https://www.mandiant.com/resources/blog)
 - [Zero2Auto](https://zero2auto.com/category/malware-analysis/)
 - [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
 - [The DFIR Report](https://thedfirreport.com/)
