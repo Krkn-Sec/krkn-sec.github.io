@@ -1,6 +1,6 @@
 ## Welcome!
 
-My name is Paul and I'm one of those cybersecurity nerds that you hear about. I have a problem of trying to learn new things so whilst I focus my efforts on DFIR and Malware Analysis topics, I like to dip my toes into other security pools such as red teaming. I've created this portfolio not only for me to remember little projects I've worked on and techniques that I've learned along the way but also in the hopes that it provides newer generations some guidance as well.
+Hey there! Thanks for checking out my Github Pages. My name is Paul and I'm a computer nerd with 6 years experience in the cybersecurity industry. This is a small collection of some home projects and topics that I've worked on over the years when I've had a little free time.
 
 ## Navigation
 ### Blog
