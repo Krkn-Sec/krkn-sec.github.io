@@ -32,3 +32,8 @@ Hey there! Thanks for checking out my Github Pages. My name is Paul and I'm a co
 ### Help
 - [Guides](Guides/guides.md)
 - [Resource List](Resources/resIndex.md)
+
+---
+
+### Extra
+- [CrackMe Solutions](CrackMes/RedXen-Fun-CrackMe.md)
