@@ -1,2 +1,2 @@
-# krkn-sec.github.io
-Personal Blog
+# KrknSec's Github Pages
+Portfolio of all my random projects.
