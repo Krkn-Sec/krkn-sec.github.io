@@ -13,7 +13,7 @@ Hey there! Thanks for checking out my Github Pages. My name is Paul and I'm a co
 - [YARA Rules](https://github.com/Krkn-Sec/YaraRules)
 - [Malware Config Extraction Scripts](https://github.com/Krkn-Sec/Malware-Analysis-Automation-Scripts)
 - [IOCs](https://github.com/Krkn-Sec/IOCs)
-- [Fuzzy Hashes](https://github.com/Krkn-Sec/Fuzzy-Hashes)
+- [Fuzzy Hashes](https://github.com/Krkn-Sec/Fuzzy-Hashes/blob/master/malwareFuzzyHashes.txt)
 
 ---
 
