@@ -14,6 +14,7 @@ Hey there! Thanks for checking out my Github Pages. My name is Paul and I'm a co
 - [Malware Config Extraction Scripts](https://github.com/Krkn-Sec/Malware-Analysis-Automation-Scripts)
 - [IOCs](https://github.com/Krkn-Sec/IOCs)
 - [Fuzzy Hashes](https://github.com/Krkn-Sec/Fuzzy-Hashes/blob/master/malwareFuzzyHashes.txt)
+- [Malware Challenge Binaries](https://github.com/Krkn-Sec/Malware-Analysis-Challenges)
 
 ---
 
