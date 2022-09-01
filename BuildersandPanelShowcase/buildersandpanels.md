@@ -6,6 +6,8 @@ I wanted to create this section to provide people with some insight into the eye
 
 I at least found these interesting. I hope someone else does too.
 
+Specifically from a malware analysis perspective, it allows me to see the different options that might be available when building the executables which is helpful.
+
 ---
 
 ## RATs
