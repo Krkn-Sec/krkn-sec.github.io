@@ -9,6 +9,7 @@ Hey there! Thanks for checking out my Github Pages. My name is Paul and I'm a co
 ---
 
 ### Malware Analysis
+- [Malware Builders and Panels Showcase](BuildersandPanelShowcase/buildersandpanels.md)
 - [Reports](https://github.com/Krkn-Sec/Malware-Analysis-Reports)
 - [YARA Rules](https://github.com/Krkn-Sec/YaraRules)
 - [Malware Config Extraction Scripts](https://github.com/Krkn-Sec/Malware-Analysis-Automation-Scripts)
