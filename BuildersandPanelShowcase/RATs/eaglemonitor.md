@@ -2,7 +2,9 @@
 ## Version REV2
 ### Malpedia Description:
 ```
-This RAT written in C# was derived from HorusEyesRat. It was modified by "Arsium" and published on GitHub. There is also a client builder included.
+This RAT written in C# was derived from HorusEyesRat. It was modified by "Arsium" and 
+published on GitHub. There is also a client builder included.
+
 Github Source: https://github.com/arsium/EagleMonitorRAT
 ```
 ---
