@@ -15,7 +15,11 @@ It is supposedly popular with actors in the Middle East. Similar to other
 RATs, many leaked builders may be backdoored.
 ```
 
-### [Any.run Stats](https://any.run/malware-trends/njrat)
+### Any.run Stats
+<iframe
+  src="https://any.run/malware-trends/njrat"
+  style="width:100%; height:300px;"
+></iframe>
 ---
 ---
 ### Main Panel
