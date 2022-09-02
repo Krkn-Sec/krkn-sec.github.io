@@ -5,6 +5,7 @@
 Nanocore is a Remote Access Tool used to steal credentials and to spy on cameras. 
 It as been used for a while by numerous criminal actors as well as by nation state threat actors.
 ```
+### Main Panel
 ---
 ![nanocore-1](Pictures/Nanocore/nanocore-1.png)
 ---
@@ -22,6 +23,8 @@ It as been used for a while by numerous criminal actors as well as by nation sta
 ---
 ![nanocore-8](Pictures/Nanocore/nanocore-8.png)
 ---
+---
+### Plugins
 ![nanocore-9](Pictures/Nanocore/nanocore-9.png)
 ---
 ![nanocore-10](Pictures/Nanocore/nanocore-10.png)
