@@ -16,10 +16,12 @@ RATs, many leaked builders may be backdoored.
 ```
 
 ### Any.run Stats
+
 <iframe
   src="https://any.run/malware-trends/njrat"
   style="width:100%; height:300px;"
 ></iframe>
+
 ---
 ---
 ### Main Panel
