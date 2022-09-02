@@ -59,8 +59,12 @@ It as been used for a while by numerous criminal actors as well as by nation sta
 ---
 ![nanocore-23](Pictures/Nanocore/nanocore-23.png)
 ---
+---
+### Network Stress Capabilities
 ![nanocore-24](Pictures/Nanocore/nanocore-24.png)
 ---
+---
+### Victim Interaction Capabilities
 ![nanocore-25](Pictures/Nanocore/nanocore-25.png)
 ---
 ![nanocore-26](Pictures/Nanocore/nanocore-26.png)
