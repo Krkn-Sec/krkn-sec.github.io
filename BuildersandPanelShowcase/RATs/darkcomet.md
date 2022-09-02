@@ -8,6 +8,8 @@ the trojan. Indeed, DarkComet is able to enable control over a compromised syste
 through use of a simple graphic user interface. Experts think that this user 
 friendliness is the key of its mass success.
 ```
+### [Any.run Stats](https://any.run/malware-trends/darkcomet)
+---
 ---
 ![darkcomet-1](Pictures/DarkCometRAT/darkcomet-1.png)
 ---
