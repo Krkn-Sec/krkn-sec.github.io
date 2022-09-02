@@ -2,7 +2,8 @@
 ## Version 1.2.2.0
 ### Malpedia Description:
 ```
-Nanocore is a Remote Access Tool used to steal credentials and to spy on cameras. It as been used for a while by numerous criminal actors as well as by nation state threat actors.
+Nanocore is a Remote Access Tool used to steal credentials and to spy on cameras. 
+It as been used for a while by numerous criminal actors as well as by nation state threat actors.
 ```
 ---
 ![nanocore-1](Pictures/Nanocore/nanocore-1.png)
