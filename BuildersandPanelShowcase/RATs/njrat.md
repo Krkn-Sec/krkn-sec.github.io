@@ -14,6 +14,8 @@ to create and configure the malware to spread through USB drives."
 It is supposedly popular with actors in the Middle East. Similar to other 
 RATs, many leaked builders may be backdoored.
 ```
+
+### [Any.run Stats](https://any.run/malware-trends/njrat)
 ---
 ---
 ### Main Panel
