@@ -15,12 +15,22 @@ It is supposedly popular with actors in the Middle East. Similar to other
 RATs, many leaked builders may be backdoored.
 ```
 ---
+---
+### Main Panel
 ![njrat-1](Pictures/njRAT/njrat-1.png)
 ---
+---
+### Builder
 ![njrat-2](Pictures/njRAT/njrat-2.png)
 ---
+---
+### Server Settings
 ![njrat-3](Pictures/njRAT/njrat-3.png)
 ---
+---
+### About
 ![njrat-4](Pictures/njRAT/njrat-4.png)
 ---
+---
+### Victim Interaction Capabilities
 ![njrat-5](Pictures/njRAT/njrat-5.png)
