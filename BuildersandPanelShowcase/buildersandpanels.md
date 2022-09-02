@@ -14,3 +14,4 @@ Specifically from a malware analysis perspective, it allows me to see the differ
 - [887 RAT](RATs/887rat.md)
 - [Babylon RAT](RATs/babylonrat.md)
 - [BitRAT](RATs/bitrat.md)
+- [BlueBanana](RATs/bluebananarat.md)
