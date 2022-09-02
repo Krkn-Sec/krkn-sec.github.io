@@ -2,7 +2,11 @@
 ## Unknown Version
 ### Malpedia Description:
 ```
-DarkComet is one of the most famous RATs, developed by Jean-Pierre Lesueur in 2008. After being used in the Syrian civil war in 2011, Lesuer decided to stop developing the trojan. Indeed, DarkComet is able to enable control over a compromised system through use of a simple graphic user interface. Experts think that this user friendliness is the key of its mass success.
+DarkComet is one of the most famous RATs, developed by Jean-Pierre Lesueur in 2008. 
+After being used in the Syrian civil war in 2011, Lesuer decided to stop developing 
+the trojan. Indeed, DarkComet is able to enable control over a compromised system 
+through use of a simple graphic user interface. Experts think that this user 
+friendliness is the key of its mass success.
 ```
 ---
 ![darkcomet-1](Pictures/DarkCometRAT/darkcomet-1.png)
