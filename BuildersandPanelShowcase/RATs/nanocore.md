@@ -29,6 +29,8 @@ It as been used for a while by numerous criminal actors as well as by nation sta
 ---
 ![nanocore-10](Pictures/Nanocore/nanocore-10.png)
 ---
+---
+### Server Settings
 ![nanocore-11](Pictures/Nanocore/nanocore-11.png)
 ---
 ![nanocore-12](Pictures/Nanocore/nanocore-12.png)
