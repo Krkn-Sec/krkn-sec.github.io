@@ -1,6 +1,11 @@
 # Eagle Monitor RAT
-# Version REV2
-
+## Version REV2
+### Malpedia Description:
+```
+This RAT written in C# was derived from HorusEyesRat. It was modified by "Arsium" and published on GitHub. There is also a client builder included.
+Github Source: https://github.com/arsium/EagleMonitorRAT
+```
+---
 ![eaglemonitor-1](Pictures/EagleMonitorRAT/eaglemonitor-1.png)
 ---
 ![eaglemonitor-2](Pictures/EagleMonitorRAT/eaglemonitor-2.png)
