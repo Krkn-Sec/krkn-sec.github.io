@@ -6,7 +6,9 @@ I wanted to create this section to provide people with some insight into the eye
 
 I at least found these interesting. I hope someone else does too.
 
-Specifically from a malware analysis perspective, it allows me to see the different options that might be available when building the executables which is helpful.
+Specifically from a malware analysis perspective, it allows me to see the different options that might be available when building the executables which is helpful. It also allows me to build multiple versions of each to create better YARA signatures that works with all versions.
+
+*No I will not give anyone the builders that I have found nor will I inform you where I grabbed them from. I don't want to be an accessory to other people using them for nefarious purposes. Find them yourself.*
 
 ---
 
