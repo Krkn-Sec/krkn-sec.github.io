@@ -1,6 +1,8 @@
 # Crimson RAT
 ## Unknown Version
-
+### [Any.run Stats](https://any.run/malware-trends/crimson)
+---
+---
 ![crimson-1](Pictures/CrimsonRAT/crimson-1.png)
 ---
 ![crimson-2](Pictures/CrimsonRAT/crimson-2.png)
