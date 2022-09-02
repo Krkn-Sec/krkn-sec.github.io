@@ -8,5 +8,5 @@ Furthermore, each buyer’s modus operandi makes BitRAT even harder to stop, con
 
 BitRAT’s popularity arises from its versatility. The malicious tool can perform a wide range of operations, including data exfiltration, UAC bypass, DDoS attacks, clipboard monitoring, gaining unauthorized webcam access, credential theft, audio recording, XMRig coin mining and generic keylogging.
 ```
-
+---
 ![bitrat-1](Pictures/BitRAT/bitrat-1.PNG)
