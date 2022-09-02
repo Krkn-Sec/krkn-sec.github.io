@@ -1,0 +1,2 @@
+# LokiRAT
+# Unknown version -- Cracked
