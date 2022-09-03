@@ -26,3 +26,13 @@ Specifically from a malware analysis perspective, it allows me to see the differ
 - [LokiRAT](RATs/lokirat.md)
 - [Nanocore](RATs/nanocore.md)
 - [njRAT](RATs/njrat.md)
+
+---
+---
+
+## PHP Panels
+- [AgentTesla Panel](PHPPanels/agenttesla.md)
+- [Collector Stealer Panel](PHPPanels/collector.md)
+- [DarkOut Botnet Panel](PHPPanels/darkout.md)
+- [Mars Stealer Panel](PHPPanels/mars.md)
+- [Smokeloader Panel](PHPPanels/smokeloader.md)
