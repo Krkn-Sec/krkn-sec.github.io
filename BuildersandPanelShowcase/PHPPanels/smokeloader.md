@@ -1,5 +1,5 @@
 # Smokeloader Panel
-## Unknown version
+## Version Rev3/2018
 ### Malpedia Description:
 ```
 The SmokeLoader family is a generic backdoor with a range of 
