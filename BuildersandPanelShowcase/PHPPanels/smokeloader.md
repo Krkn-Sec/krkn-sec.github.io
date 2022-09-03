@@ -14,6 +14,7 @@ bing.com, adobe.com, and others. Typically the actual
 Download returns an HTTP 404 but still contains data in 
 the Response Body.
 ```
+### [Any.run Stats](https://any.run/malware-trends/smoke)
 ---
 ---
 ![smoke-1](Pictures/Smokeloader/smoke-1.png)
