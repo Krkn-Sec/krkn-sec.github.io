@@ -1,3 +1,14 @@
 remote_theme: nrandecker/particle
 plugins:
 - jekyll-remote-theme
+
+# Site settings
+description: My collection of silly things I like to work on.
+
+# User settings
+username: Krkn-Sec
+user_description: Malware Analyst
+user_title: KrknSec
+email: contact@krknsec.com
+twitter_username: @KrknSec
+github_username: Krkn-Sec
