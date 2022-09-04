@@ -1,3 +1,7 @@
 remote_theme: "dracula/gh-pages"
 plugins:
 - jekyll-remote-theme
+
+title: KrknSec
+description: Malware Analyst
+colorspace: red
