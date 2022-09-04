@@ -1,3 +1,4 @@
+colorspace: red
 ## Welcome!
 
 Hey there! Thanks for checking out my Github Pages. My name is Paul and I'm a computer nerd with 6 years of experience in the cybersecurity industry. This is a small collection of some home projects and topics that I've worked on over the years when I've had a little free time.
