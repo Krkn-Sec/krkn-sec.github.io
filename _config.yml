@@ -4,4 +4,4 @@ plugins:
 
 title: KrknSec
 description: Malware Analyst
-colorspace: red
+colorspace: red/orange
