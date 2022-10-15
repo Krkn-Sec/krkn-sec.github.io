@@ -7,6 +7,13 @@ Usually first stage loaders are pretty boring and a necessary evil to get to the
 
 ---
 
+## Sample Info
+Sample Hash: 934cfeb5ee3d2ba49831d76dffb1a2658326e1cd90b50779d6670eb2fbdc7ed1
+
+Magniber ransomware is a ransomware strain that targets mostly home users instead of large enterprises. It has used interesting techniques in the past such as utilizing the PrintNightmare vulnerability.
+
+---
+
 ## Deobfuscation
 
 So I'm not going to show the entire script because it's massive due to the large character array but here's a snippet.
@@ -47,6 +54,12 @@ These allow us to run this script in a browser on our lab machine so we can extr
 
 ![exportByteArrays](Pictures/exportByteArrays.png)
 
-Here we can see it has populated the byte arrays and spit them out. At this point we can extract the byte arrays and plop it into CyberChef. Finally, by removing the white spaces and setting the proper parameters on “From Charcode” we can find ourselves a lovely “MZ” header that we were looking for.
+Here we can see it has populated the byte arrays and spit them out. At this point we can extract the byte arrays and plop it into CyberChef. Finally, by removing the white spaces and setting the proper parameters on “From Charcode” we can find ourselves the lovely “MZ” header that we were looking for.
 
 ![cyberchefMZ](Pictures/cyberchefMZ.png)
+
+---
+
+## Technique
+
+This technique is a modified version of [DotNetToJScript](https://www.ired.team/offensive-security/defense-evasion/executing-csharp-assemblies-from-jscript-and-wscript-with-dotnettojscript).
