@@ -41,9 +41,9 @@ So now that we know that Stage 2 will be in a memory stream, how can we grab tha
 
 ![customJavascript2](Pictures/customJavascript2.png)
 
-I then added: <script language=javascript/> at the start of the script and closed it out at the end of the script with </script/>
+I then added the HTML tags: "script language=javascript" at the start of the script and closed it out at the end of the script with "/script"
 
-These are HTML tags that allow us to run this script in a browser on our lab machine so we can extract the console.log() results from the web developer console.
+These allow us to run this script in a browser on our lab machine so we can extract the console.log() results from the web developer console.
 
 ![exportByteArrays](Pictures/exportByteArrays.png)
 
