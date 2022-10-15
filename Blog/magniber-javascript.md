@@ -35,7 +35,7 @@ Next I renamed some of the remaining weird variables to something actually reada
 
 ![renamedJavascript](Pictures/renamedJavascript.png)
 
-Essentially this code basically creates Memory Streams, grabs all the bytes for the binary from the character array, and then stores the binary in the Memory Streams. The new built binary in the Memory Stream is then executed.
+Essentially this code creates Memory Streams, grabs all the bytes for the binary from the character array, and then stores the binary in the Memory Streams. The new built binary in the Memory Stream is then executed.
 
 So now that we know that Stage 2 will be in a memory stream, how can we grab that data? Well my approach was to get rid of all the memory stream business and instead have the Javascript store the bytes into my own arrays. From there I can print those arrays using console.log(). Below is the modified version that I came up with.
 
