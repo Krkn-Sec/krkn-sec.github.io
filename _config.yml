@@ -3,7 +3,7 @@ remote_theme: tareqdandachi/jekyll-shell-theme
 plugins:
 - jekyll-remote-theme
 
-listen_for_clients_preferred_style: true
+#listen_for_clients_preferred_style: true
 
-title: KrknSec
-footer: 'follow us on <a href="https://twitter.com/KrknSec">twitter</a>'
+#title: KrknSec
+#footer: 'follow us on <a href="https://twitter.com/KrknSec">twitter</a>'
