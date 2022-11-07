@@ -1,5 +1,6 @@
 ## Blog Posts
 
+- [Random Sample Analysis 1: Interesting Chain into Quasar](wildSample1.md)
 - [Deobfuscating New Magniber Stage 1 Loader](magniber-javascript.md)
 - [TeamTNT Toolkit](teamtnt.md)
 - [Analyzing a Malicious APK](analyzingapk.md)
