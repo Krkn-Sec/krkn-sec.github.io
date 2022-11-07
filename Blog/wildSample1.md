@@ -29,6 +29,8 @@ The text file contained the following text:
 
 ![droppedTextFile](Pictures/droppedTextFile.png)
 
+This made me laugh and made me feel like it was a high school student that made this infection chain.
+
 The BAT file contained a lot of lines and used the same environment variable obfuscation technique. It also contained a large amount of Base64 encoded bytes. 
 
 ![batFile1](Pictures/batFile1.png)
