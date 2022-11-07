@@ -21,9 +21,15 @@ Looking at the behavior tab in VirusTotal, I was able to look at the full comman
 
 ![vtFullCommand](Pictures/vtFullCommand.png)
 
-After a short read, I saw that this was easy to deal with. The `set <rand>=x` commands are just setting environment variables. Then the command will append the characters together and execute it with the `call` command. In order to deobfuscate this, I simply changed the `call` to `echo` so that the result will be printed out into the console.
+After a short read, I saw that this was easy to deal with. The `set <rand>=x` commands are just setting environment variables. Then the command will append the characters together and execute it with the `call` command. In order to deobfuscate this, I simply changed the `call` to `echo` so that the result will be printed out into the console. This was the result.
 
-Due to the fact that I didn't keep the quotes from the original command line and instead just copied the full command from VirusTotal, which removed the quotes, some of the characters weren't translated correctly. However, it was still very clear what the purpose was with this Powershell command. It downloads two different files from the Discord CDN. One of which is a text file and the other is a BAT file. The text file gets opened via Notepad and the BAT file gets executed. I proceeded to download these files via a proxy. 
+![uglyPowershell](Pictures/uglyPowershell.png)
+
+Due to the fact that I didn't keep the quotes from the original command line and instead just copied the full command from VirusTotal, which removed the quotes, some of the characters weren't translated correctly. After cleaning it up, it was very clear what the purpose was with this Powershell command despite some of the issues regarding incorrect character translations. 
+
+![downloadDiscordCDN.png](Pictures/downloadDiscordCDN.png)
+
+It downloads two different files from the Discord CDN. One of which is a text file and the other is a BAT file. The text file gets opened via Notepad and the BAT file gets executed. I proceeded to download these files via a proxy. 
 
 The text file contained the following text:
 
