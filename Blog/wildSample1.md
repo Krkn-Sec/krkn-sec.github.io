@@ -45,7 +45,7 @@ Then this was the result after I cleaned it up:
 
 It's now straight forward to read the process of this script. It takes the large amount of Base64 characters seen in the BAT file and first Base64 decodes it. It then AES decrypts the bytes using the `KEY` and `IV` values that are also Base64 encoded. Finally, it decompresses the bytes using Gzip and proceeds to execute the resulting payload in memory by using `System.Reflection.Assembly.Load()`, and `Invoke()`. To decrypt the bytes in order to acquire this next stage payload, all is needed is a Python script, CyberChef, or piggybacking off of the Powershell script. The `KEY` and `IV` values were Base64 encoded so I simply decoded them and saved the result in hex format.
 
-The large amount of Base64 content from the BAT file was copied into CyberChef and the same steps that the Powershell script uses were entered in CyberChef. Here's the recipe:
+The large amount of Base64 content from the BAT file was copied into CyberChef and the same steps that the Powershell script used were entered in CyberChef. Here's the recipe:
 
 ![ccRecipe](Pictures/ccRecipe.png)
 
