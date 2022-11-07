@@ -2,12 +2,16 @@
 ---
 I was performing some research on commonly used file types for stage 1 loaders through phishing attacks. File types such as .ISO, .LNK, etc. In VirusTotal I came across the following .LNK file. 
 
+---
+
 | Name   | Proof + Dox (made by CrXpWalter.lnk                                         |
 |--------|-----------------------------------------------------------------------------|
 | MD5    | 7d15ffc27d415d11c91c3c4c38bab7df                                            |
 | SHA1   | 5120854ae08a40897163fb343a7a46d151af1cf9                                    |
 | SHA256 | 22f9c24a957846a240fc7b8c6981b482e85d3d7a26c7dbed526ec87981b771bd            |
 | SSDEEP | 192:8no49GahAcZ9oEzyOnrQ9q6PWvFhxyVXacMAUH3lb2ikGmlql:ao+GahhByYeP+FhOqVbKG |
+
+---
 
 Upon looking at the properties of the LNK file, I saw an interesting command line that made me decide to investigate this further. 
 
