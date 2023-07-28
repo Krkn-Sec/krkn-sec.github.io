@@ -1,4 +1,4 @@
-# Call of Duty: Modern Warfare 2 (2019) Worm
+# Call of Duty: Modern Warfare 2 (2009) Worm
 ---
 I saw an article regarding a new worm spreading via Call of Duty: Modern Warfare 2. Link [here](https://www.techspot.com/news/99573-hackers-infecting-modern-warfare-2-players-self-spreading.html)
 
