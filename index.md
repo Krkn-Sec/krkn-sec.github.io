@@ -1,6 +1,6 @@
-## {KrknSec}
+## Paul "KrknSec" D.
 
-Malware analyst. Reverse Engineer.
+Malware analyst. Reverse Engineer. Enjoys breaking software both malicious and benign.
 
 ## Navigation
 ### Blog
