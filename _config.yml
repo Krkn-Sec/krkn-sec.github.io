@@ -1,7 +1,7 @@
 #remote_theme: b2a3e8/jekyll-theme-console
-remote_theme: akuritsu/pRoJEct-VeXEd
-plugins:
-- jekyll-remote-theme
+theme: hacker
+#plugins:
+#- jekyll-remote-theme
 
 #listen_for_clients_preferred_style: true
 
