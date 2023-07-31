@@ -1,5 +1,5 @@
 #remote_theme: b2a3e8/jekyll-theme-console
-remote_theme: bitbrain/jekyll-dash
+remote_theme: gildasio/darcli
 plugins:
 - jekyll-remote-theme
 
