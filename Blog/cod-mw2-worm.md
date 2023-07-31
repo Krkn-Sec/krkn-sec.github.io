@@ -3,6 +3,7 @@
 I saw an article regarding a new worm spreading via Call of Duty: Modern Warfare 2. Link [here](https://www.techspot.com/news/99573-hackers-infecting-modern-warfare-2-players-self-spreading.html)
 
 I haven't seen any analysis write-ups on it yet so I wanted to take a look at it myself despite not really knowing much on game hacking.
+
 ---
 
 ## Obtaining Samples
