@@ -1,6 +1,8 @@
 # Emulating TinyLoader With Qiling
 ---
+
 I recently analyzed TinyLoader. As its name suggests, it's a very tiny binary that downloads an executes an additional payload. In many of the samples I came across, the C2 was stored just in plaintext which makes it very simple to make an extractor for. However, in other samples, it used a custom packer which is what we're solving today.
+
 ---
 ## The Packer
 Here's the entirety of the program when I loaded it up in IDA. It's very small and not a lot going on.
