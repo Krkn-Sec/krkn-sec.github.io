@@ -296,4 +296,4 @@ And after running it on both a packed and unpacked sample we get this. Works gre
 
 ---
 
-The full code is available here.
+The full code is available [here.](https://github.com/Krkn-Sec/RE-Scripts/blob/main/Config%20Extractors/TinyLoader/emulator.py)
