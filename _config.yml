@@ -8,3 +8,5 @@ title: KrknSec
 footer: 'follow us on <a href="https://twitter.com/KrknSec">twitter</a>'
 
 .menu { border-top: none; }
+header_pages:
+  - 
