@@ -1,12 +1,9 @@
+title: KrknSec
+header_pages:
+  - index.md
+url: "https://krkn-sec.github.io"
+footer: 'follow us on <a href="https://twitter.com/KrknSec">twitter</a>'
+
 remote_theme: b2a3e8/jekyll-theme-console
 plugins:
 - jekyll-remote-theme
-
-listen_for_clients_preferred_style: true
-
-title: KrknSec
-footer: 'follow us on <a href="https://twitter.com/KrknSec">twitter</a>'
-
-.menu { border-top: none; }
-header_pages:
-  - index.md
