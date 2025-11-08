@@ -6,3 +6,5 @@ listen_for_clients_preferred_style: true
 
 title: KrknSec
 footer: 'follow us on <a href="https://twitter.com/KrknSec">twitter</a>'
+
+.menu { border-top: none; }
