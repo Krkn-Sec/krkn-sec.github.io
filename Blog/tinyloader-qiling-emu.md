@@ -7,6 +7,7 @@ I recently analyzed TinyLoader. As its name suggests, it's a very tiny binary th
 ## The Packer
 Here's the entirety of the program when I loaded it up in IDA. It's very small and not a lot going on.
 
+
 ```c
 void start()
 {
@@ -64,9 +65,11 @@ void start()
 }
 ```
 
+
 It starts with a Sleep() for 10 seconds. Attempts to create a new memory buffer using VirtualAlloc() with PAGE_EXECUTE_READWRITE permissions. It copies 0x6ac or 1708 bytes from dword_401010 to the newly allocated buffer in 4-byte chunks. It then performs some sort of XOR decrypt on it and then jumps there to start execution. So in a debugger this would be pretty easy. Just set a breakpoint on CALL RAX -> Step-Into and you're at the decrypted code. But what if we want to completely automate this statically?
 
 So first let's clean it up.
+
 
 ```c
 void start()
@@ -125,9 +128,11 @@ void start()
 }
 ```
 
+
 Now it's a bit more readable. We can clearly see the memcpy() at the first while loop. Then it basically bruteforces the 4-byte XOR key during execution until it sees the magic bytes: 0xE5894855. Finally, it decrypts all of the encrypted bytes in DWORD increments. It's pretty simple but I just thought it was cool that it has no hardcoded key and it bruteforces itself.
 
 Now we could reimplement this in C and call it a day to decrypt it. Which I did because C is super fast and bruteforced the key instantly.
+
 
 ```c
 // Find XOR key
@@ -156,6 +161,7 @@ Now we could reimplement this in C and call it a day to decrypt it. Which I did 
     }
 ```
 
+
 ---
 ## Emulating
 
@@ -163,19 +169,24 @@ However, in the search for new skills and knowledge I also decided to mess with 
 
 Now full disclosure, at first I just setup the barebones and told it to run.
 
+
 ```python
 ql = Qiling([rootfs_file], rootfs=r"./rootfs/x8664_windows", archtype=QL_ARCH.X8664, ostype=QL_OS.WINDOWS, verbose=QL_VERBOSE.DISABLED, multithread=True)
 ql.run()
 ```
 
+
 I quickly found out it's not that easy. First I was just getting a GetModuleFileNameA() error when attempting to execute. The solution for this was to just copy the sample into the rootfs that you setup to actually run an environment in Qiling.
+
 
 ```python
 rootfs_file = f"./rootfs/x8664_windows/Temp/sample.exe"
 shutil.copyfile(self.file, rootfs_file)
 ```
 
+
 It also turns out that the Sleep() and VirtualAlloc() functions are implemented fine but not RtlZeroMemory() (which TinyLoader ends up calling later). Good news is this is pretty easy to replicate. I just created a function hook for when this API is called and implemented my own version.
+
 
 ```python
 # Hook em
@@ -204,7 +215,9 @@ def hook_RtlZeroMemory(ql, address, params):
     return 0
 ```
 
+
 Once I did this, emulation ran but next API issue: socket(). If I wanted to get the C2:Port combo I figured the easiest way would be to let emulation go until TinyLoader calls connect() but obviously all the previous API calls would need to be implemented in order to get there.
+
 
 ```python
 @staticmethod
@@ -253,7 +266,9 @@ def hook_inet_addr_v2(ql, address, params):
     return result
 ```
 
+
 Using Qiling's built-in debugger "qdb" (super helpful by the way), I was able to confirm with these new hooks that the emulation was reaching connect(). Now all that was needed was reading the `sockaddr *name` argument from connect to grab the IP address and port number. Then once that's grabbed, we can just end the emulation.
+
 
 ```python
 @staticmethod
@@ -291,6 +306,7 @@ def hook_connect(ql, address, params):
     # Stop emulation
     ql.emu_stop()
 ```
+
 
 And after running it on both a packed and unpacked sample we get this. Works great!
 
