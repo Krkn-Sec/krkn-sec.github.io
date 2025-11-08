@@ -154,6 +154,9 @@ Now we could reimplement this in C and call it a day to decrypt it. Which I did 
     }
 ```
 
+---
+## Emulating
+
 However, in the search for new skills and knowledge I also decided to mess with some emulation. I did this because I wanted a single script that can work for both the packed and unpacked variants and get me the C2:Port combo every time. I went with Qiling because it seemed relatively straight-forward to implement and I kind of wanted to just execute the full binary each time instead of worrying about carving out specific data.
 
 Now full disclosure, at first I just setup the barebones and told it to run.
